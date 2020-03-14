@@ -70,7 +70,7 @@ export default {
       'calculateAll'
     ]),
     sendInfo: function () {
-      this.$swal({icon: 'success', title: 'Your contact information was sended!<br/> We\'ll call you in the time frame that you selected.'})
+      this.$swal({icon: 'success', title: 'Your contact information was sended!<br/> We\'ll call you in the time frame that you\'ve selected.'})
     },
     sharedOnFacebook: function () {
       this.shared = true
